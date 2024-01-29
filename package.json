@@ -1,0 +1,51 @@
+{
+  "name": "next-park-drizzle-template",
+  "description": "A template for creating a Next.js app with Park and Drizzle",
+  "version": "0.0.0",
+  "private": true,
+  "keywords": [
+    "next",
+    "next.js",
+    "park",
+    "drizzle",
+    "template"
+  ],
+  "license": "MIT",
+  "author": "Jeremy Nguyen <hi@jeremy.ng> (https://jeremy.ng)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeremy-code/next-park-drizzle-template.git"
+  },
+  "homepage": "https://github.com/jeremy-code/next-park-drizzle-template#readme",
+  "scripts": {
+    "prepack": "husky",
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier 'src/**/*.{js,jsx,ts,tsx,json}' --write --ignore-path .gitignore"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "yarn@4.0.2+sha256.825003a0f561ad09a3b1ac4a3b3ea6207af2796d54f62a9420520915721f5186",
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "eslint": "^8.56.0",
+    "husky": "^9.0.6",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.2.4",
+    "turbo": "^1.11.3",
+    "typescript": "^5.3.3"
+  },
+  "dependenciesMeta": {
+    "@ianvs/prettier-plugin-sort-imports@4.1.1": {
+      "unplugged": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@repo/eslint-config",
+  "version": "0.0.0",
+  "private": true,
+  "files": [
+    "library.js",
+    "next.js",
+    "react-internal.js"
+  ],
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.7.2",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.1.0",
+    "eslint-config-turbo": "^1.11.3",
+    "typescript": "^5.3.3"
+  }
+}
