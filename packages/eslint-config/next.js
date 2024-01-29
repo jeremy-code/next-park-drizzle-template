@@ -4,7 +4,6 @@ require("@rushstack/eslint-patch/modern-module-resolution");
 module.exports = {
   extends: [
     "eslint:recommended",
-    "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "turbo",
     "next/core-web-vitals",

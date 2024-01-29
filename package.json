@@ -1,5 +1,5 @@
 {
-  "name": "next-park-drizzle-template",
+  "name": "next-park-drizzle-monorepo",
   "description": "A template for creating a Next.js app with Park and Drizzle",
   "version": "0.0.0",
   "private": true,
@@ -37,7 +37,7 @@
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
     "eslint": "^8.56.0",
-    "husky": "^9.0.6",
+    "husky": "^9.0.7",
     "lint-staged": "^15.2.0",
     "prettier": "^3.2.4",
     "turbo": "^1.11.3",
