@@ -2,7 +2,5 @@
 module.exports = {
   ignorePatterns: ["apps/**", "packages/**"],
   extends: ["@repo/eslint-config/library.js"],
-  parserOptions: {
-    project: true,
-  },
+  root: true,
 };
