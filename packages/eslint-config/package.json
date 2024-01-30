@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "files": [
-    "library.js",
+    "index.js",
     "next.js",
     "react-internal.js"
   ],
