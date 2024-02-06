@@ -1,5 +1,3 @@
-require("@rushstack/eslint-patch/modern-module-resolution");
-
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
   extends: ["eslint:recommended", "plugin:@typescript-eslint/recommended-type-checked", "turbo"],
@@ -18,7 +16,7 @@ module.exports = {
   overrides: [
     {
       extends: ["plugin:@typescript-eslint/disable-type-checked"],
-      files: ["./**/*.js"],
+      files: ["*.js", "*.mjs"],
     },
   ],
   plugins: ["@typescript-eslint"],
